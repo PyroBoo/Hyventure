@@ -1,0 +1,42 @@
+{
+  "group": "hyventure_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hyventure_mod:cattail_twig"
+    },
+    "1": {
+      "item": "hyventure_mod:cattail_twig"
+    },
+    "2": {
+      "item": "hyventure_mod:cattail_twig"
+    },
+    "3": {
+      "item": "hyventure_mod:cattail_twig"
+    },
+    "4": {
+      "item": "hyventure_mod:cattail_twig"
+    },
+    "5": {
+      "item": "hyventure_mod:cattail_twig"
+    },
+    "6": {
+      "item": "hyventure_mod:cattail_twig"
+    },
+    "7": {
+      "item": "hyventure_mod:cattail_twig"
+    },
+    "8": {
+      "item": "hyventure_mod:cattail_twig"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_wool",
+    "count": 1
+  }
+}

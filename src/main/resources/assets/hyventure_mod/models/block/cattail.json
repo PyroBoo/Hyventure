@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "hyventure_mod:blocks/cattail",
+    "particle": "hyventure_mod:blocks/cattail"
+  }
+}
