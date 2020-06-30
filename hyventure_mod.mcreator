@@ -22,7 +22,7 @@
     {
       "name": "CattailTwigToWool",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "HyventureTab",
       "type": "tab",
-      "sortid": 13,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "TinyCactusMobplayerCollidesWithPlant",
       "type": "procedure",
-      "sortid": 14,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -75,7 +75,7 @@
     {
       "name": "Palmlog",
       "type": "block",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -102,7 +102,7 @@
     {
       "name": "PalmPlanks",
       "type": "block",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -111,7 +111,7 @@
     {
       "name": "PalmPlanksRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -120,7 +120,7 @@
     {
       "name": "PalmStairs",
       "type": "block",
-      "sortid": 9,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -129,7 +129,7 @@
     {
       "name": "PalmSlab",
       "type": "block",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -138,7 +138,7 @@
     {
       "name": "PalmFence",
       "type": "block",
-      "sortid": 11,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -147,7 +147,7 @@
     {
       "name": "PalmStairsRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -156,7 +156,7 @@
     {
       "name": "PalmSlabRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -165,7 +165,7 @@
     {
       "name": "PalmFenceRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -174,11 +174,29 @@
     {
       "name": "PalmLeaves",
       "type": "block",
-      "sortid": 19,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "palm_leaves"
+    },
+    {
+      "name": "Onigiri",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onigiri"
+    },
+    {
+      "name": "OnigiriRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onigiri_recipe"
     }
   ],
   "variable_elements": [],
@@ -194,6 +212,7 @@
       "item.hyventure_mod.rice": "Riso",
       "block.hyventure_mod.palm_leaves": "Foglie di Palma",
       "block.hyventure_mod.cattail": "Coda di Gatto",
+      "item.hyventure_mod.onigiri": "Onigiri",
       "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
       "block.hyventure_mod.palm_planks": "Assi di Palma",
       "itemGroup.tabhyventure_tab": "Hyventure",
@@ -209,6 +228,7 @@
       "item.hyventure_mod.rice": "Rice",
       "block.hyventure_mod.palm_leaves": "Palm Leaves",
       "block.hyventure_mod.cattail": "Cattail",
+      "item.hyventure_mod.onigiri": "Onigiri",
       "block.hyventure_mod.desert_lily": "Desert Lily",
       "block.hyventure_mod.palm_planks": "Palm Planks",
       "itemGroup.tabhyventure_tab": "Hyventure",

@@ -1,0 +1,22 @@
+{
+  "group": "hyventure_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "hyventure_mod:rice"
+    },
+    {
+      "item": "hyventure_mod:rice"
+    },
+    {
+      "item": "hyventure_mod:rice"
+    }
+  ],
+  "result": {
+    "item": "hyventure_mod:onigiri",
+    "count": 2
+  }
+}

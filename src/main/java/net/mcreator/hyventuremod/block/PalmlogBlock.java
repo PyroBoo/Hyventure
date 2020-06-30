@@ -32,7 +32,7 @@ public class PalmlogBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:palmlog")
 	public static final Block block = null;
 	public PalmlogBlock(HyventureModModElements instance) {
-		super(instance, 7);
+		super(instance, 8);
 	}
 
 	@Override

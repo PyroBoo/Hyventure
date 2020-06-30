@@ -29,7 +29,7 @@ public class PalmSlabBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:palm_slab")
 	public static final Block block = null;
 	public PalmSlabBlock(HyventureModModElements instance) {
-		super(instance, 10);
+		super(instance, 12);
 	}
 
 	@Override

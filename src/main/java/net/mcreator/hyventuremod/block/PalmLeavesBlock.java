@@ -30,7 +30,7 @@ public class PalmLeavesBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:palm_leaves")
 	public static final Block block = null;
 	public PalmLeavesBlock(HyventureModModElements instance) {
-		super(instance, 19);
+		super(instance, 10);
 	}
 
 	@Override
