@@ -62,6 +62,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tiny_cactus"
+    },
+    {
+      "name": "DesertLily",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desert_lily"
     }
   ],
   "variable_elements": [],
@@ -69,12 +78,14 @@
   "language_map": {
     "it_it": {
       "block.hyventure_mod.cattail": "Cattail",
+      "block.hyventure_mod.desert_lily": "Desert Lily",
       "item.hyventure_mod.cattail_twig": "Cattail",
       "itemGroup.tabhyventure_tab": "Hyventure",
       "block.hyventure_mod.tiny_cactus": "Tiny Cactus"
     },
     "en_us": {
       "block.hyventure_mod.cattail": "Cattail",
+      "block.hyventure_mod.desert_lily": "Desert Lily",
       "item.hyventure_mod.cattail_twig": "Cattail",
       "itemGroup.tabhyventure_tab": "Hyventure",
       "block.hyventure_mod.tiny_cactus": "Tiny Cactus"

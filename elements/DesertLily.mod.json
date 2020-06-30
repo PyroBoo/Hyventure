@@ -1,0 +1,53 @@
+{
+  "_fv": 8,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "desert_lily",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 3,
+    "name": "Desert Lily",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HyventureTab"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 60,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      },
+      {
+        "value": "desert_hills"
+      },
+      {
+        "value": "mutated_desert"
+      }
+    ]
+  }
+}

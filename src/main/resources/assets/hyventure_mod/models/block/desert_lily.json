@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "hyventure_mod:blocks/desert_lily",
+    "particle": "hyventure_mod:blocks/desert_lily"
+  }
+}
