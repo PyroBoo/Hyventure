@@ -51,7 +51,7 @@ public class WildRiceBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:wild_rice")
 	public static final Block block = null;
 	public WildRiceBlock(HyventureModModElements instance) {
-		super(instance, 8);
+		super(instance, 5);
 	}
 
 	@Override
