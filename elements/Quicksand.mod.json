@@ -82,6 +82,9 @@
     "onEntityCollides": {
       "name": "QuicksandEntityCollidesInTheBlock"
     },
+    "onEntityWalksOn": {
+      "name": "QuicksandEntityWalksOnTheBlock"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],

@@ -29,6 +29,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.hyventuremod.procedures.QuicksandEntityWalksOnTheBlockProcedure;
 import net.mcreator.hyventuremod.procedures.QuicksandEntityCollidesInTheBlockProcedure;
 import net.mcreator.hyventuremod.itemgroup.HyventureTabItemGroup;
 import net.mcreator.hyventuremod.HyventureModModElements;
@@ -76,6 +77,19 @@ public class QuicksandBlock extends HyventureModModElements.ModElement {
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
 				QuicksandEntityCollidesInTheBlockProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
+		public void onEntityWalk(World world, BlockPos pos, Entity entity) {
+			super.onEntityWalk(world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				QuicksandEntityWalksOnTheBlockProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
