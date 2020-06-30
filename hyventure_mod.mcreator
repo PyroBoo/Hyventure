@@ -197,6 +197,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "onigiri_recipe"
+    },
+    {
+      "name": "QuicksandEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quicksand_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quicksand",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quicksand"
     }
   ],
   "variable_elements": [],
@@ -216,6 +242,7 @@
       "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
       "block.hyventure_mod.palm_planks": "Assi di Palma",
       "itemGroup.tabhyventure_tab": "Hyventure",
+      "block.hyventure_mod.quicksand": "Sabbie Mobili",
       "block.hyventure_mod.palm_stairs": "Scalini di Palma"
     },
     "en_us": {
@@ -232,6 +259,7 @@
       "block.hyventure_mod.desert_lily": "Desert Lily",
       "block.hyventure_mod.palm_planks": "Palm Planks",
       "itemGroup.tabhyventure_tab": "Hyventure",
+      "block.hyventure_mod.quicksand": "Quicksand",
       "block.hyventure_mod.palm_stairs": "Palm Stairs"
     }
   },

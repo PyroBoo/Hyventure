@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyventure_mod:blocks/quicksand",
+    "up": "hyventure_mod:blocks/quicksand",
+    "north": "hyventure_mod:blocks/quicksand",
+    "east": "hyventure_mod:blocks/quicksand",
+    "south": "hyventure_mod:blocks/quicksand",
+    "west": "hyventure_mod:blocks/quicksand",
+    "particle": "hyventure_mod:blocks/quicksand"
+  }
+}
