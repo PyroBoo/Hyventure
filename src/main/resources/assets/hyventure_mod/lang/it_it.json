@@ -1,4 +1,6 @@
 {
   "block.hyventure_mod.cattail": "Cattail",
-  "item.hyventure_mod.cattail_twig": "Cattail"
+  "item.hyventure_mod.cattail_twig": "Cattail",
+  "itemGroup.tabhyventure_tab": "Hyventure",
+  "block.hyventure_mod.tiny_cactus": "Tiny Cactus"
 }

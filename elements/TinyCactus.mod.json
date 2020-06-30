@@ -3,12 +3,12 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "cattail",
+    "texture": "tiny_cactus",
     "customModelName": "Cross model",
     "plantType": "normal",
-    "growapableSpawnType": "Beach",
+    "growapableSpawnType": "Desert",
     "growapableMaxHeight": 3,
-    "name": "Cattail",
+    "name": "Tiny Cactus",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:HyventureTab"
@@ -21,9 +21,9 @@
       "value": "PLANT"
     },
     "customDrop": {
-      "value": "CUSTOM:CattailTwig"
+      "value": ""
     },
-    "dropAmount": 3,
+    "dropAmount": 1,
     "forceTicking": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -31,20 +31,26 @@
       "value": ""
     },
     "offsetType": "XZ",
-    "aiPathNodeType": "DEFAULT",
-    "flammability": 20,
+    "aiPathNodeType": "DANGER_CACTUS",
+    "flammability": 30,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 7,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [
       {
-        "value": "swamp"
+        "value": "desert_hills"
       },
       {
-        "value": "mutated_swampland"
+        "value": "desert"
+      },
+      {
+        "value": "mutated_desert"
       }
-    ]
+    ],
+    "onEntityCollides": {
+      "name": "TinyCactusMobplayerCollidesWithPlant"
+    }
   }
 }

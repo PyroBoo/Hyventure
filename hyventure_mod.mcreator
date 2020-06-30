@@ -27,6 +27,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cattail_twig_to_wool"
+    },
+    {
+      "name": "HyventureTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyventure_tab"
+    },
+    {
+      "name": "TinyCactusMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_cactus_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TinyCactus",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_cactus"
     }
   ],
   "variable_elements": [],
@@ -34,16 +69,20 @@
   "language_map": {
     "it_it": {
       "block.hyventure_mod.cattail": "Cattail",
-      "item.hyventure_mod.cattail_twig": "Cattail"
+      "item.hyventure_mod.cattail_twig": "Cattail",
+      "itemGroup.tabhyventure_tab": "Hyventure",
+      "block.hyventure_mod.tiny_cactus": "Tiny Cactus"
     },
     "en_us": {
       "block.hyventure_mod.cattail": "Cattail",
-      "item.hyventure_mod.cattail_twig": "Cattail"
+      "item.hyventure_mod.cattail_twig": "Cattail",
+      "itemGroup.tabhyventure_tab": "Hyventure",
+      "block.hyventure_mod.tiny_cactus": "Tiny Cactus"
     }
   },
   "workspaceSettings": {
     "modid": "hyventure_mod",
-    "modName": "Hyventure Mod",
+    "modName": "",
     "version": "1.0.0",
     "author": "mattia, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -54,6 +93,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.hyventuremod",
     "lockBaseModFiles": false
   },

@@ -21,15 +21,19 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Direction;
 import net.minecraft.potion.Effects;
+import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
@@ -38,8 +42,8 @@ import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.hyventuremod.procedures.TinyCactusMobplayerCollidesWithPlantProcedure;
 import net.mcreator.hyventuremod.itemgroup.HyventureTabItemGroup;
-import net.mcreator.hyventuremod.item.CattailTwigItem;
 import net.mcreator.hyventuremod.HyventureModModElements;
 
 import java.util.Random;
@@ -47,11 +51,11 @@ import java.util.List;
 import java.util.Collections;
 
 @HyventureModModElements.ModElement.Tag
-public class CattailBlock extends HyventureModModElements.ModElement {
-	@ObjectHolder("hyventure_mod:cattail")
+public class TinyCactusBlock extends HyventureModModElements.ModElement {
+	@ObjectHolder("hyventure_mod:tiny_cactus")
 	public static final Block block = null;
-	public CattailBlock(HyventureModModElements instance) {
-		super(instance, 1);
+	public TinyCactusBlock(HyventureModModElements instance) {
+		super(instance, 5);
 	}
 
 	@Override
@@ -88,9 +92,11 @@ public class CattailBlock extends HyventureModModElements.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("swamp")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("desert_hills")))
 				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("swamp_hills")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("desert")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("desert_lakes")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
@@ -98,19 +104,24 @@ public class CattailBlock extends HyventureModModElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(7))));
+							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(1))));
 		}
 	}
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.PLANT)
 					.hardnessAndResistance(0f, 0f).lightValue(0));
-			setRegistryName("cattail");
+			setRegistryName("tiny_cactus");
 		}
 
 		@Override
 		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 20;
+			return 30;
+		}
+
+		@Override
+		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
+			return PathNodeType.DANGER_CACTUS;
 		}
 
 		@Override
@@ -118,12 +129,25 @@ public class CattailBlock extends HyventureModModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CattailTwigItem.block, (int) (3)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.Beach;
+			return PlantType.Desert;
+		}
+
+		@Override
+		public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+			super.onEntityCollision(state, world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				TinyCactusMobplayerCollidesWithPlantProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

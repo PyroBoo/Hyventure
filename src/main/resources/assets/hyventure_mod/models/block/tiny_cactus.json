@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "hyventure_mod:blocks/tiny_cactus",
+    "particle": "hyventure_mod:blocks/tiny_cactus"
+  }
+}
