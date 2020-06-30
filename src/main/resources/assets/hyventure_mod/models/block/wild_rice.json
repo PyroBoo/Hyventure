@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "hyventure_mod:blocks/palmtreeplaceholder",
-    "particle": "hyventure_mod:blocks/palmtreeplaceholder"
+    "cross": "hyventure_mod:blocks/wild_rice",
+    "particle": "hyventure_mod:blocks/wild_rice"
   }
 }

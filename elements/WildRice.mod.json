@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "palmtreeplaceholder",
+    "texture": "wild_rice",
     "customModelName": "Cross model",
     "plantType": "normal",
     "growapableSpawnType": "Beach",
