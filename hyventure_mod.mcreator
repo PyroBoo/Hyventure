@@ -147,8 +147,8 @@
   "workspaceSettings": {
     "modid": "hyventure_mod",
     "modName": "Hyventure Mod",
-    "version": "1.0.0",
-    "author": "mattia, MCreator",
+    "version": "Alpha 1.0.0",
+    "author": "TheGreatKingBoo_, TheRealKri_",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

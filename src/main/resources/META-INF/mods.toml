@@ -3,11 +3,11 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="hyventure_mod"
-version="1.0.0"
+version="Alpha 1.0.0"
 displayName="Hyventure Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="mattia, MCreator"
+authors="TheGreatKingBoo_, TheRealKri_"
 
 [[dependencies.hyventure_mod]]
     modId="minecraft"
