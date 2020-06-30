@@ -107,6 +107,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "palm_planks"
+    },
+    {
+      "name": "PalmPlanksRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_planks_recipe"
     }
   ],
   "variable_elements": [],

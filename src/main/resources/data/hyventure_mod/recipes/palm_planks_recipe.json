@@ -1,0 +1,13 @@
+{
+  "group": "hyventure_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hyventure_mod:palmlog"
+    }
+  ],
+  "result": {
+    "item": "hyventure_mod:palm_planks",
+    "count": 4
+  }
+}
