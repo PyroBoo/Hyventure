@@ -170,6 +170,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "palm_fence_recipe"
+    },
+    {
+      "name": "PalmLeaves",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_leaves"
     }
   ],
   "variable_elements": [],
@@ -183,6 +192,7 @@
       "block.hyventure_mod.tiny_cactus": "Cactus Piccolo",
       "block.hyventure_mod.palm_fence": "Palm Fence",
       "item.hyventure_mod.rice": "Riso",
+      "block.hyventure_mod.palm_leaves": "Palm Leaves",
       "block.hyventure_mod.cattail": "Coda di Gatto",
       "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
       "block.hyventure_mod.palm_planks": "Assi di Palma",
@@ -197,6 +207,7 @@
       "block.hyventure_mod.tiny_cactus": "Tiny Cactus",
       "block.hyventure_mod.palm_fence": "Palm Fence",
       "item.hyventure_mod.rice": "Rice",
+      "block.hyventure_mod.palm_leaves": "Palm Leaves",
       "block.hyventure_mod.cattail": "Cattail",
       "block.hyventure_mod.desert_lily": "Desert Lily",
       "block.hyventure_mod.palm_planks": "Palm Planks",
