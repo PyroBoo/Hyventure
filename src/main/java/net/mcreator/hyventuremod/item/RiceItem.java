@@ -15,7 +15,7 @@ public class RiceItem extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:rice")
 	public static final Item block = null;
 	public RiceItem(HyventureModModElements instance) {
-		super(instance, 9);
+		super(instance, 6);
 	}
 
 	@Override

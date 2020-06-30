@@ -22,7 +22,7 @@
     {
       "name": "CattailTwigToWool",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "HyventureTab",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "TinyCactusMobplayerCollidesWithPlant",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -102,7 +102,7 @@
     {
       "name": "PalmPlanks",
       "type": "block",
-      "sortid": 11,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -111,37 +111,97 @@
     {
       "name": "PalmPlanksRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "palm_planks_recipe"
+    },
+    {
+      "name": "PalmStairs",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_stairs"
+    },
+    {
+      "name": "PalmSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_slab"
+    },
+    {
+      "name": "PalmFence",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_fence"
+    },
+    {
+      "name": "PalmStairsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_stairs_recipe"
+    },
+    {
+      "name": "PalmSlabRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_slab_recipe"
+    },
+    {
+      "name": "PalmFenceRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_fence_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "it_it": {
-      "block.hyventure_mod.cattail": "Coda di Gatto",
       "block.hyventure_mod.palmlog": "Legno di Palma",
-      "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
       "block.hyventure_mod.wild_rice": "Riso Selvatico",
-      "block.hyventure_mod.palm_planks": "Assi di Palma",
       "item.hyventure_mod.cattail_twig": "Coda di Gatto",
-      "itemGroup.tabhyventure_tab": "Hyventure",
+      "block.hyventure_mod.palm_slab": "Palm Slab",
       "block.hyventure_mod.tiny_cactus": "Cactus Piccolo",
-      "item.hyventure_mod.rice": "Riso"
+      "block.hyventure_mod.palm_fence": "Palm Fence",
+      "item.hyventure_mod.rice": "Riso",
+      "block.hyventure_mod.cattail": "Coda di Gatto",
+      "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
+      "block.hyventure_mod.palm_planks": "Assi di Palma",
+      "itemGroup.tabhyventure_tab": "Hyventure",
+      "block.hyventure_mod.palm_stairs": "Palm Stairs"
     },
     "en_us": {
-      "block.hyventure_mod.cattail": "Cattail",
       "block.hyventure_mod.palmlog": "Palm Log",
-      "block.hyventure_mod.desert_lily": "Desert Lily",
       "block.hyventure_mod.wild_rice": "Wild Rice",
-      "block.hyventure_mod.palm_planks": "Palm Planks",
       "item.hyventure_mod.cattail_twig": "Cattail",
-      "itemGroup.tabhyventure_tab": "Hyventure",
+      "block.hyventure_mod.palm_slab": "Palm Slab",
       "block.hyventure_mod.tiny_cactus": "Tiny Cactus",
-      "item.hyventure_mod.rice": "Rice"
+      "block.hyventure_mod.palm_fence": "Palm Fence",
+      "item.hyventure_mod.rice": "Rice",
+      "block.hyventure_mod.cattail": "Cattail",
+      "block.hyventure_mod.desert_lily": "Desert Lily",
+      "block.hyventure_mod.palm_planks": "Palm Planks",
+      "itemGroup.tabhyventure_tab": "Hyventure",
+      "block.hyventure_mod.palm_stairs": "Palm Stairs"
     }
   },
   "workspaceSettings": {

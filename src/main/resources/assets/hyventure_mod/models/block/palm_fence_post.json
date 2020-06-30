@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "hyventure_mod:blocks/palm_plank",
+    "particle": "hyventure_mod:blocks/palm_plank"
+  }
+}

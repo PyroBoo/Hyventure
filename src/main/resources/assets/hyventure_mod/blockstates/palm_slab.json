@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hyventure_mod:block/palm_slab"
+    },
+    "type=top": {
+      "model": "hyventure_mod:block/palm_slab_top"
+    },
+    "type=double": {
+      "model": "hyventure_mod:block/palm_slab_full"
+    }
+  }
+}

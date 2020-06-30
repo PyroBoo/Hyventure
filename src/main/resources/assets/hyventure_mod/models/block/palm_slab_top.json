@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "hyventure_mod:blocks/palm_plank",
+    "top": "hyventure_mod:blocks/palm_plank",
+    "side": "hyventure_mod:blocks/palm_plank"
+  }
+}

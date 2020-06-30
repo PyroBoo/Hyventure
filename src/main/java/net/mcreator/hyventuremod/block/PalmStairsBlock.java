@@ -12,6 +12,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
@@ -23,11 +24,11 @@ import java.util.List;
 import java.util.Collections;
 
 @HyventureModModElements.ModElement.Tag
-public class PalmPlanksBlock extends HyventureModModElements.ModElement {
-	@ObjectHolder("hyventure_mod:palm_planks")
+public class PalmStairsBlock extends HyventureModModElements.ModElement {
+	@ObjectHolder("hyventure_mod:palm_stairs")
 	public static final Block block = null;
-	public PalmPlanksBlock(HyventureModModElements instance) {
-		super(instance, 8);
+	public PalmStairsBlock(HyventureModModElements instance) {
+		super(instance, 9);
 	}
 
 	@Override
@@ -36,11 +37,11 @@ public class PalmPlanksBlock extends HyventureModModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(HyventureTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(0)
-					.harvestTool(ToolType.AXE));
-			setRegistryName("palm_planks");
+			super(new Block(Block.Properties.create(Material.ROCK)).getDefaultState(), Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)
+					.hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(0).harvestTool(ToolType.AXE));
+			setRegistryName("palm_stairs");
 		}
 
 		@Override
