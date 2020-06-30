@@ -188,16 +188,16 @@
       "block.hyventure_mod.palmlog": "Legno di Palma",
       "block.hyventure_mod.wild_rice": "Riso Selvatico",
       "item.hyventure_mod.cattail_twig": "Coda di Gatto",
-      "block.hyventure_mod.palm_slab": "Palm Slab",
+      "block.hyventure_mod.palm_slab": "Asse di Palma",
       "block.hyventure_mod.tiny_cactus": "Cactus Piccolo",
-      "block.hyventure_mod.palm_fence": "Palm Fence",
+      "block.hyventure_mod.palm_fence": "Staccionata di Palma",
       "item.hyventure_mod.rice": "Riso",
-      "block.hyventure_mod.palm_leaves": "Palm Leaves",
+      "block.hyventure_mod.palm_leaves": "Foglie di Palma",
       "block.hyventure_mod.cattail": "Coda di Gatto",
       "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
       "block.hyventure_mod.palm_planks": "Assi di Palma",
       "itemGroup.tabhyventure_tab": "Hyventure",
-      "block.hyventure_mod.palm_stairs": "Palm Stairs"
+      "block.hyventure_mod.palm_stairs": "Scalini di Palma"
     },
     "en_us": {
       "block.hyventure_mod.palmlog": "Palm Log",
