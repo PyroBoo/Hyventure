@@ -24,7 +24,7 @@
     "specialInfo": [],
     "hardness": 0.5,
     "resistance": 0.5,
-    "hasGravity": false,
+    "hasGravity": true,
     "creativeTab": {
       "value": "CUSTOM:HyventureTab"
     },
@@ -55,7 +55,7 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "SAND"
     },

@@ -25,6 +25,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.FallingBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
@@ -43,7 +44,7 @@ public class QuicksandBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:quicksand")
 	public static final Block block = null;
 	public QuicksandBlock(HyventureModModElements instance) {
-		super(instance, 22);
+		super(instance, 15);
 	}
 
 	@Override
@@ -52,10 +53,10 @@ public class QuicksandBlock extends HyventureModModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(HyventureTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.5f, 0.5f).lightValue(0).harvestLevel(0)
-					.harvestTool(ToolType.SHOVEL));
+					.harvestTool(ToolType.SHOVEL).doesNotBlockMovement());
 			setRegistryName("quicksand");
 		}
 
