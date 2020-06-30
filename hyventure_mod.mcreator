@@ -223,6 +223,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quicksand"
+    },
+    {
+      "name": "QuicksandEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quicksand_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
