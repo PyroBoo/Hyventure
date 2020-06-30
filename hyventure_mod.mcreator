@@ -71,6 +71,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "desert_lily"
+    },
+    {
+      "name": "Palmlog",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palmlog"
     }
   ],
   "variable_elements": [],
@@ -78,6 +87,7 @@
   "language_map": {
     "it_it": {
       "block.hyventure_mod.cattail": "Cattail",
+      "block.hyventure_mod.palmlog": "Palm Log",
       "block.hyventure_mod.desert_lily": "Desert Lily",
       "item.hyventure_mod.cattail_twig": "Cattail",
       "itemGroup.tabhyventure_tab": "Hyventure",
@@ -85,6 +95,7 @@
     },
     "en_us": {
       "block.hyventure_mod.cattail": "Cattail",
+      "block.hyventure_mod.palmlog": "Palm Log",
       "block.hyventure_mod.desert_lily": "Desert Lily",
       "item.hyventure_mod.cattail_twig": "Cattail",
       "itemGroup.tabhyventure_tab": "Hyventure",

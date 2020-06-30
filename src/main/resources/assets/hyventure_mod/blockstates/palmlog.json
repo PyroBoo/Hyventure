@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "hyventure_mod:block/palmlog"
+    },
+    "facing=north": {
+      "model": "hyventure_mod:block/palmlog"
+    },
+    "facing=east": {
+      "model": "hyventure_mod:block/palmlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "hyventure_mod:block/palmlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "hyventure_mod:block/palmlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "hyventure_mod:block/palmlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

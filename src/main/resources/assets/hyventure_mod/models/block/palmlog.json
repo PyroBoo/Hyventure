@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyventure_mod:blocks/palmtreeplaceholder",
+    "up": "hyventure_mod:blocks/palmtreeplaceholder",
+    "north": "hyventure_mod:blocks/palmtreeplaceholder",
+    "east": "hyventure_mod:blocks/palmtreeplaceholder",
+    "south": "hyventure_mod:blocks/palmtreeplaceholder",
+    "west": "hyventure_mod:blocks/palmtreeplaceholder",
+    "particle": "hyventure_mod:blocks/palmtreeplaceholder"
+  }
+}
