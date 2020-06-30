@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
+import net.mcreator.hyventuremod.itemgroup.HyventureTabItemGroup;
 import net.mcreator.hyventuremod.HyventureModModElements;
 
 @HyventureModModElements.ModElement.Tag
@@ -25,7 +25,8 @@ public class HosomakiItem extends HyventureModModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(2).saturation(0.1f).build()));
+			super(new Item.Properties().group(HyventureTabItemGroup.tab).maxStackSize(64)
+					.food((new Food.Builder()).hunger(2).saturation(0.1f).build()));
 			setRegistryName("hosomaki");
 		}
 

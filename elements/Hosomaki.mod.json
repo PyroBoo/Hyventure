@@ -8,7 +8,7 @@
     "name": "Salmon Hosomaki",
     "specialInfo": [],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:HyventureTab"
     },
     "stackSize": 64,
     "nutritionalValue": 2,
