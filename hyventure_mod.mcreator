@@ -249,6 +249,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hosomaki"
+    },
+    {
+      "name": "HosomakiRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hosomaki_recipe"
     }
   ],
   "variable_elements": [],
