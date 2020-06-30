@@ -240,6 +240,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Hosomaki",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hosomaki"
     }
   ],
   "variable_elements": [],
@@ -252,6 +261,7 @@
       "block.hyventure_mod.palm_slab": "Asse di Palma",
       "block.hyventure_mod.tiny_cactus": "Cactus Piccolo",
       "block.hyventure_mod.palm_fence": "Staccionata di Palma",
+      "item.hyventure_mod.hosomaki": "Salmon Hosomaki",
       "item.hyventure_mod.rice": "Riso",
       "block.hyventure_mod.palm_leaves": "Foglie di Palma",
       "block.hyventure_mod.cattail": "Coda di Gatto",
@@ -269,6 +279,7 @@
       "block.hyventure_mod.palm_slab": "Palm Slab",
       "block.hyventure_mod.tiny_cactus": "Tiny Cactus",
       "block.hyventure_mod.palm_fence": "Palm Fence",
+      "item.hyventure_mod.hosomaki": "Salmon Hosomaki",
       "item.hyventure_mod.rice": "Rice",
       "block.hyventure_mod.palm_leaves": "Palm Leaves",
       "block.hyventure_mod.cattail": "Cattail",
