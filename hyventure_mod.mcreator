@@ -80,6 +80,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "palmlog"
+    },
+    {
+      "name": "WildRice",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wild_rice"
+    },
+    {
+      "name": "Rice",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rice"
     }
   ],
   "variable_elements": [],
@@ -89,22 +107,26 @@
       "block.hyventure_mod.cattail": "Cattail",
       "block.hyventure_mod.palmlog": "Palm Log",
       "block.hyventure_mod.desert_lily": "Desert Lily",
+      "block.hyventure_mod.wild_rice": "Wild Rice",
       "item.hyventure_mod.cattail_twig": "Cattail",
       "itemGroup.tabhyventure_tab": "Hyventure",
-      "block.hyventure_mod.tiny_cactus": "Tiny Cactus"
+      "block.hyventure_mod.tiny_cactus": "Tiny Cactus",
+      "item.hyventure_mod.rice": "Rice"
     },
     "en_us": {
       "block.hyventure_mod.cattail": "Cattail",
       "block.hyventure_mod.palmlog": "Palm Log",
       "block.hyventure_mod.desert_lily": "Desert Lily",
+      "block.hyventure_mod.wild_rice": "Wild Rice",
       "item.hyventure_mod.cattail_twig": "Cattail",
       "itemGroup.tabhyventure_tab": "Hyventure",
-      "block.hyventure_mod.tiny_cactus": "Tiny Cactus"
+      "block.hyventure_mod.tiny_cactus": "Tiny Cactus",
+      "item.hyventure_mod.rice": "Rice"
     }
   },
   "workspaceSettings": {
     "modid": "hyventure_mod",
-    "modName": "",
+    "modName": "Hyventure Mod",
     "version": "1.0.0",
     "author": "mattia, MCreator",
     "websiteURL": "https://mcreator.net",

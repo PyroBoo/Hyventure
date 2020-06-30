@@ -1,0 +1,53 @@
+{
+  "_fv": 8,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "wild_rice",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Beach",
+    "growapableMaxHeight": 3,
+    "name": "Wild Rice",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HyventureTab"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "CUSTOM:Rice"
+    },
+    "dropAmount": 3,
+    "forceTicking": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 20,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 10,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "mutated_swampland"
+      },
+      {
+        "value": "river"
+      }
+    ]
+  }
+}

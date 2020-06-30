@@ -2,7 +2,9 @@
   "block.hyventure_mod.cattail": "Cattail",
   "block.hyventure_mod.palmlog": "Palm Log",
   "block.hyventure_mod.desert_lily": "Desert Lily",
+  "block.hyventure_mod.wild_rice": "Wild Rice",
   "item.hyventure_mod.cattail_twig": "Cattail",
   "itemGroup.tabhyventure_tab": "Hyventure",
-  "block.hyventure_mod.tiny_cactus": "Tiny Cactus"
+  "block.hyventure_mod.tiny_cactus": "Tiny Cactus",
+  "item.hyventure_mod.rice": "Rice"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hyventure_mod:blocks/wild_rice"
+  }
+}
