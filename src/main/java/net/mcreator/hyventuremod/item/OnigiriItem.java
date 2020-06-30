@@ -26,7 +26,7 @@ public class OnigiriItem extends HyventureModModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(HyventureTabItemGroup.tab).maxStackSize(64)
-					.food((new Food.Builder()).hunger(2).saturation(0.1f).build()));
+					.food((new Food.Builder()).hunger(4).saturation(0.1f).build()));
 			setRegistryName("onigiri");
 		}
 
