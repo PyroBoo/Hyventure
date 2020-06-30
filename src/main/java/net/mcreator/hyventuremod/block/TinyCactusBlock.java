@@ -55,7 +55,7 @@ public class TinyCactusBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:tiny_cactus")
 	public static final Block block = null;
 	public TinyCactusBlock(HyventureModModElements instance) {
-		super(instance, 5);
+		super(instance, 3);
 	}
 
 	@Override

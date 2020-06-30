@@ -50,7 +50,7 @@ public class DesertLilyBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:desert_lily")
 	public static final Block block = null;
 	public DesertLilyBlock(HyventureModModElements instance) {
-		super(instance, 6);
+		super(instance, 4);
 	}
 
 	@Override
