@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "hyventure_mod:blocks/palm_trapdoor",
+    "particle": "hyventure_mod:blocks/palm_trapdoor"
+  }
+}

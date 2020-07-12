@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "hyventure_mod:blocks/bubblewood_planks",
+    "top": "hyventure_mod:blocks/bubblewood_planks",
+    "side": "hyventure_mod:blocks/bubblewood_planks"
+  }
+}

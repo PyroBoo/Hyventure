@@ -8,7 +8,7 @@ import net.mcreator.hyventuremod.HyventureModModElements;
 @HyventureModModElements.ModElement.Tag
 public class TinyCactusMobplayerCollidesWithPlantProcedure extends HyventureModModElements.ModElement {
 	public TinyCactusMobplayerCollidesWithPlantProcedure(HyventureModModElements instance) {
-		super(instance, 16);
+		super(instance, 28);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

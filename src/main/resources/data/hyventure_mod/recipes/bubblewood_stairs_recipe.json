@@ -1,0 +1,33 @@
+{
+  "group": "hyventure_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hyventure_mod:bubblewood_planks"
+    },
+    "3": {
+      "item": "hyventure_mod:bubblewood_planks"
+    },
+    "4": {
+      "item": "hyventure_mod:bubblewood_planks"
+    },
+    "6": {
+      "item": "hyventure_mod:bubblewood_planks"
+    },
+    "7": {
+      "item": "hyventure_mod:bubblewood_planks"
+    },
+    "8": {
+      "item": "hyventure_mod:bubblewood_planks"
+    }
+  },
+  "result": {
+    "item": "hyventure_mod:bubblewood_stairs",
+    "count": 4
+  }
+}

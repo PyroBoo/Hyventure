@@ -8,14 +8,13 @@ import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
-import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.MobEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.LeavesBlock;
+import net.minecraft.block.FenceGateBlock;
+import net.minecraft.block.FenceBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -26,11 +25,11 @@ import java.util.List;
 import java.util.Collections;
 
 @HyventureModModElements.ModElement.Tag
-public class PalmLeavesBlock extends HyventureModModElements.ModElement {
-	@ObjectHolder("hyventure_mod:palm_leaves")
+public class BubblewoodFenceBlock extends HyventureModModElements.ModElement {
+	@ObjectHolder("hyventure_mod:bubblewood_fence")
 	public static final Block block = null;
-	public PalmLeavesBlock(HyventureModModElements instance) {
-		super(instance, 12);
+	public BubblewoodFenceBlock(HyventureModModElements instance) {
+		super(instance, 23);
 	}
 
 	@Override
@@ -39,26 +38,23 @@ public class PalmLeavesBlock extends HyventureModModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(HyventureTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends LeavesBlock {
+	public static class CustomBlock extends FenceBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.3f, 0.3f).lightValue(0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).notSolid());
-			setRegistryName("palm_leaves");
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(0)
+					.harvestTool(ToolType.AXE));
+			setRegistryName("bubblewood_fence");
 		}
 
 		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+		public boolean canConnect(BlockState state, boolean checkattach, Direction face) {
+			boolean flag = state.getBlock() instanceof FenceBlock && state.getMaterial() == this.material;
+			boolean flag1 = state.getBlock() instanceof FenceGateBlock && FenceGateBlock.isParallel(state, face);
+			return !cannotAttach(state.getBlock()) && checkattach || flag || flag1;
 		}
 
 		@Override
 		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 40;
-		}
-
-		@Override
-		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
-			return PathNodeType.LEAVES;
+			return 20;
 		}
 
 		@Override

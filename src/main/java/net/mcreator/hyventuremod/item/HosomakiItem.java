@@ -16,7 +16,7 @@ public class HosomakiItem extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:hosomaki")
 	public static final Item block = null;
 	public HosomakiItem(HyventureModModElements instance) {
-		super(instance, 24);
+		super(instance, 8);
 	}
 
 	@Override

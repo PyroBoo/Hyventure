@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "hyventure_mod:blocks/bubblewood_planks",
+    "particle": "hyventure_mod:blocks/bubblewood_planks"
+  }
+}

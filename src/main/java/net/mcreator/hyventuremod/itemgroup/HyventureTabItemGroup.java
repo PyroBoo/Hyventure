@@ -13,7 +13,7 @@ import net.mcreator.hyventuremod.HyventureModModElements;
 @HyventureModModElements.ModElement.Tag
 public class HyventureTabItemGroup extends HyventureModModElements.ModElement {
 	public HyventureTabItemGroup(HyventureModModElements instance) {
-		super(instance, 15);
+		super(instance, 27);
 	}
 
 	@Override

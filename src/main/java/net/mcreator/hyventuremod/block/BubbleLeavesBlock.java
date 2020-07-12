@@ -26,11 +26,11 @@ import java.util.List;
 import java.util.Collections;
 
 @HyventureModModElements.ModElement.Tag
-public class PalmLeavesBlock extends HyventureModModElements.ModElement {
-	@ObjectHolder("hyventure_mod:palm_leaves")
+public class BubbleLeavesBlock extends HyventureModModElements.ModElement {
+	@ObjectHolder("hyventure_mod:bubble_leaves")
 	public static final Block block = null;
-	public PalmLeavesBlock(HyventureModModElements instance) {
-		super(instance, 12);
+	public BubbleLeavesBlock(HyventureModModElements instance) {
+		super(instance, 20);
 	}
 
 	@Override
@@ -43,7 +43,7 @@ public class PalmLeavesBlock extends HyventureModModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.3f, 0.3f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.AXE).notSolid());
-			setRegistryName("palm_leaves");
+			setRegistryName("bubble_leaves");
 		}
 
 		@Override

@@ -2,15 +2,16 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "bubblewood_planks",
-    "textureTop": "bubblewood_planks",
-    "textureLeft": "bubblewood_planks",
-    "textureFront": "bubblewood_planks",
-    "textureRight": "bubblewood_planks",
-    "textureBack": "bubblewood_planks",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "bubblewood_leaves",
+    "textureTop": "palm_leaves",
+    "textureLeft": "palm_leaves",
+    "textureFront": "palm_leaves",
+    "textureRight": "palm_leaves",
+    "textureBack": "palm_leaves",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
+    "blockBase": "Leaves",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -20,10 +21,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Bubblewood Planks",
+    "name": "Bubble Leaves",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 3.0,
+    "hardness": 0.3,
+    "resistance": 0.3,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:HyventureTab"
@@ -37,9 +38,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "LEAVES"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -49,15 +50,15 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
-    "flammability": 20,
+    "aiPathNodeType": "LEAVES",
+    "flammability": 40,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "PLANT"
     },
     "luminance": 0.0,
     "unbreakable": false,

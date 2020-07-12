@@ -22,7 +22,7 @@
     {
       "name": "CattailTwigToWool",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "HyventureTab",
       "type": "tab",
-      "sortid": 17,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "TinyCactusMobplayerCollidesWithPlant",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -102,7 +102,7 @@
     {
       "name": "PalmPlanks",
       "type": "block",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -111,7 +111,7 @@
     {
       "name": "PalmPlanksRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -120,7 +120,7 @@
     {
       "name": "PalmStairs",
       "type": "block",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -129,7 +129,7 @@
     {
       "name": "PalmSlab",
       "type": "block",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -138,7 +138,7 @@
     {
       "name": "PalmFence",
       "type": "block",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -147,7 +147,7 @@
     {
       "name": "PalmStairsRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -156,7 +156,7 @@
     {
       "name": "PalmSlabRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -165,7 +165,7 @@
     {
       "name": "PalmFenceRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -174,7 +174,7 @@
     {
       "name": "PalmLeaves",
       "type": "block",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -192,7 +192,7 @@
     {
       "name": "OnigiriRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -210,7 +210,7 @@
     {
       "name": "HosomakiRecipe",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -219,7 +219,7 @@
     {
       "name": "StrippedPalmLog",
       "type": "block",
-      "sortid": 26,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -228,7 +228,7 @@
     {
       "name": "PalmLogTag",
       "type": "tag",
-      "sortid": 28,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -237,7 +237,7 @@
     {
       "name": "PalmPlankstoSticksRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -246,7 +246,7 @@
     {
       "name": "BubblewoodLog",
       "type": "block",
-      "sortid": 30,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -255,7 +255,7 @@
     {
       "name": "BubblewoodPlanks",
       "type": "block",
-      "sortid": 31,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,7 +264,7 @@
     {
       "name": "BubblewoodPlanksRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -273,7 +273,7 @@
     {
       "name": "StrippedBubblewoodLog",
       "type": "block",
-      "sortid": 33,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -282,7 +282,7 @@
     {
       "name": "BubblewoodLogTag",
       "type": "tag",
-      "sortid": 34,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -291,55 +291,177 @@
     {
       "name": "AxeRecipeTag",
       "type": "tag",
-      "sortid": 35,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "axe_recipe_tag"
+    },
+    {
+      "name": "BubblewoodStairs",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_stairs"
+    },
+    {
+      "name": "BubblewoodSlab",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_slab"
+    },
+    {
+      "name": "BubblewoodFence",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_fence"
+    },
+    {
+      "name": "BubblewoodTrapdoor",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_trapdoor"
+    },
+    {
+      "name": "PalmTrapdoor",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_trapdoor"
+    },
+    {
+      "name": "BubbleLeaves",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubble_leaves"
+    },
+    {
+      "name": "PalmTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_trapdoor_recipe"
+    },
+    {
+      "name": "BubblewoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_stairs_recipe"
+    },
+    {
+      "name": "BubblewoodStick",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_stick"
+    },
+    {
+      "name": "BubblewoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_slab_recipe"
+    },
+    {
+      "name": "BubblewoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_fence_recipe"
+    },
+    {
+      "name": "BubblewoodTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bubblewood_trapdoor_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "it_it": {
-      "block.hyventure_mod.palmlog": "Legno di Palma",
-      "block.hyventure_mod.wild_rice": "Riso Selvatico",
       "item.hyventure_mod.cattail_twig": "Coda di Gatto",
+      "block.hyventure_mod.bubblewood_trapdoor": "Bubblewood Planks",
+      "block.hyventure_mod.bubblewood_log": "Bubblewood Log",
+      "block.hyventure_mod.bubblewood_fence": "Bubblewood Planks",
+      "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
+      "block.hyventure_mod.bubblewood_slab": "Bubblewood Planks",
+      "block.hyventure_mod.palmlog": "Legno di Palma",
+      "item.hyventure_mod.bubblewood_stick": "Bubblewood Stick",
+      "block.hyventure_mod.palm_trapdoor": "Palm Planks",
+      "block.hyventure_mod.wild_rice": "Riso Selvatico",
       "block.hyventure_mod.stripped_palm_log": "Palm Log",
       "block.hyventure_mod.palm_slab": "Asse di Palma",
       "block.hyventure_mod.bubblewood_planks": "Bubblewood Planks",
       "block.hyventure_mod.tiny_cactus": "Cactus Piccolo",
-      "block.hyventure_mod.bubblewood_log": "Bubblewood Log",
-      "block.hyventure_mod.palm_fence": "Staccionata di Palma",
       "item.hyventure_mod.hosomaki": "Salmon Hosomaki",
+      "block.hyventure_mod.palm_fence": "Staccionata di Palma",
       "item.hyventure_mod.rice": "Riso",
       "block.hyventure_mod.palm_leaves": "Foglie di Palma",
       "block.hyventure_mod.cattail": "Coda di Gatto",
       "item.hyventure_mod.onigiri": "Onigiri",
       "block.hyventure_mod.stripped_bubblewood_log": "Stripped Bubblewood Log",
-      "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
+      "block.hyventure_mod.bubblewood_stairs": "Bubblewood Planks",
       "block.hyventure_mod.palm_planks": "Assi di Palma",
+      "block.hyventure_mod.bubble_leaves": "Palm Leaves",
       "itemGroup.tabhyventure_tab": "Hyventure",
       "block.hyventure_mod.palm_stairs": "Scalini di Palma"
     },
     "en_us": {
-      "block.hyventure_mod.palmlog": "Palm Log",
-      "block.hyventure_mod.wild_rice": "Wild Rice",
       "item.hyventure_mod.cattail_twig": "Cattail",
+      "block.hyventure_mod.bubblewood_trapdoor": "Bubblewood Trapdoor",
+      "block.hyventure_mod.bubblewood_log": "Bubblewood Log",
+      "block.hyventure_mod.bubblewood_fence": "Bubblewood Fence",
+      "block.hyventure_mod.desert_lily": "Desert Lily",
+      "block.hyventure_mod.bubblewood_slab": "Bubblewood Slab",
+      "block.hyventure_mod.palmlog": "Palm Log",
+      "item.hyventure_mod.bubblewood_stick": "Bubblewood Stick",
+      "block.hyventure_mod.palm_trapdoor": "Palm Trapdoor",
+      "block.hyventure_mod.wild_rice": "Wild Rice",
       "block.hyventure_mod.stripped_palm_log": "Stripped Palm Log",
       "block.hyventure_mod.palm_slab": "Palm Slab",
       "block.hyventure_mod.bubblewood_planks": "Bubblewood Planks",
       "block.hyventure_mod.tiny_cactus": "Tiny Cactus",
-      "block.hyventure_mod.bubblewood_log": "Bubblewood Log",
-      "block.hyventure_mod.palm_fence": "Palm Fence",
       "item.hyventure_mod.hosomaki": "Salmon Hosomaki",
+      "block.hyventure_mod.palm_fence": "Palm Fence",
       "item.hyventure_mod.rice": "Rice",
       "block.hyventure_mod.palm_leaves": "Palm Leaves",
       "block.hyventure_mod.cattail": "Cattail",
       "item.hyventure_mod.onigiri": "Onigiri",
       "block.hyventure_mod.stripped_bubblewood_log": "Stripped Bubblewood Log",
-      "block.hyventure_mod.desert_lily": "Desert Lily",
+      "block.hyventure_mod.bubblewood_stairs": "Bubblewood Stairs",
       "block.hyventure_mod.palm_planks": "Palm Planks",
+      "block.hyventure_mod.bubble_leaves": "Bubble Leaves",
       "itemGroup.tabhyventure_tab": "Hyventure",
       "block.hyventure_mod.palm_stairs": "Palm Stairs"
     }

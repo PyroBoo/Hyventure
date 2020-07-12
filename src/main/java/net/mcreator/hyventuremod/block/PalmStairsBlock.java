@@ -28,7 +28,7 @@ public class PalmStairsBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:palm_stairs")
 	public static final Block block = null;
 	public PalmStairsBlock(HyventureModModElements instance) {
-		super(instance, 11);
+		super(instance, 13);
 	}
 
 	@Override

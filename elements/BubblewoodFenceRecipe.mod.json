@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BubblewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BubblewoodStick"
+      },
+      {
+        "value": "CUSTOM:BubblewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BubblewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BubblewoodStick"
+      },
+      {
+        "value": "CUSTOM:BubblewoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BubblewoodFence"
+    },
+    "name": "bubblewood_fence_recipe",
+    "namespace": "mod"
+  }
+}

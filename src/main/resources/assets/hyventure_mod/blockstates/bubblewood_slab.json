@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hyventure_mod:block/bubblewood_slab"
+    },
+    "type=top": {
+      "model": "hyventure_mod:block/bubblewood_slab_top"
+    },
+    "type=double": {
+      "model": "hyventure_mod:block/bubblewood_slab_full"
+    }
+  }
+}

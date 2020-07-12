@@ -1,0 +1,32 @@
+{
+  "group": "hyventure_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "hyventure_mod:palm_planks"
+    },
+    "1": {
+      "item": "hyventure_mod:palm_planks"
+    },
+    "2": {
+      "item": "hyventure_mod:palm_planks"
+    },
+    "3": {
+      "item": "hyventure_mod:palm_planks"
+    },
+    "4": {
+      "item": "hyventure_mod:palm_planks"
+    },
+    "5": {
+      "item": "hyventure_mod:palm_planks"
+    }
+  },
+  "result": {
+    "item": "hyventure_mod:palm_trapdoor",
+    "count": 2
+  }
+}

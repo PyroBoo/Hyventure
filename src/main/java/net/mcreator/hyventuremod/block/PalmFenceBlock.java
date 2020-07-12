@@ -36,7 +36,7 @@ public class PalmFenceBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:palm_fence")
 	public static final Block block = null;
 	public PalmFenceBlock(HyventureModModElements instance) {
-		super(instance, 13);
+		super(instance, 15);
 	}
 
 	@Override

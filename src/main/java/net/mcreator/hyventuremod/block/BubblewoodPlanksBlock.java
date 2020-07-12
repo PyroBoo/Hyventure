@@ -27,7 +27,7 @@ public class BubblewoodPlanksBlock extends HyventureModModElements.ModElement {
 	@ObjectHolder("hyventure_mod:bubblewood_planks")
 	public static final Block block = null;
 	public BubblewoodPlanksBlock(HyventureModModElements instance) {
-		super(instance, 31);
+		super(instance, 19);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class BubblewoodPlanksBlock extends HyventureModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).lightValue(0).harvestLevel(0)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.AXE));
 			setRegistryName("bubblewood_planks");
 		}
