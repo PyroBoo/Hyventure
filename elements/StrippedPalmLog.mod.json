@@ -2,15 +2,15 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "quicksand",
-    "textureTop": "quicksand",
-    "textureLeft": "quicksand",
-    "textureFront": "quicksand",
-    "textureRight": "quicksand",
-    "textureBack": "quicksand",
+    "texture": "palm_log_top_stripped",
+    "textureTop": "palm_log_top_stripped",
+    "textureLeft": "palm_log_side_stripped",
+    "textureFront": "palm_log_side_stripped",
+    "textureRight": "palm_log_side_stripped",
+    "textureBack": "palm_log_side_stripped",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -20,15 +20,15 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Quicksand",
+    "name": "Stripped Palm Log",
     "specialInfo": [],
-    "hardness": 0.5,
-    "resistance": 0.5,
-    "hasGravity": true,
+    "hardness": 2.0,
+    "resistance": 2.0,
+    "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:HyventureTab"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -39,7 +39,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "SAND"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -50,14 +50,14 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 5,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "soundOnStep": {
-      "value": "SAND"
+      "value": "WOOD"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -79,34 +79,16 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "onEntityCollides": {
-      "name": "QuicksandEntityCollidesInTheBlock"
-    },
-    "onEntityWalksOn": {
-      "name": "QuicksandEntityWalksOnTheBlock"
-    },
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "desert"
-      },
-      {
-        "value": "desert_hills"
-      },
-      {
-        "value": "mutated_desert"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.SAND#0"
+        "value": "Blocks.STONE"
       }
     ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 128
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

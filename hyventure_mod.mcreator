@@ -199,49 +199,6 @@
       "registry_name": "onigiri_recipe"
     },
     {
-      "name": "QuicksandEntityCollidesInTheBlock",
-      "type": "procedure",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "quicksand_entity_collides_in_the_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Quicksand",
-      "type": "block",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "quicksand"
-    },
-    {
-      "name": "QuicksandEntityWalksOnTheBlock",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "quicksand_entity_walks_on_the_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Hosomaki",
       "type": "food",
       "sortid": 8,
@@ -258,6 +215,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hosomaki_recipe"
+    },
+    {
+      "name": "StrippedPalmLog",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_palm_log"
+    },
+    {
+      "name": "PalmLogTag",
+      "type": "tag",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_log_tag"
+    },
+    {
+      "name": "PalmPlankstoSticksRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_planksto_sticks_recipe"
     }
   ],
   "variable_elements": [],
@@ -267,6 +251,7 @@
       "block.hyventure_mod.palmlog": "Legno di Palma",
       "block.hyventure_mod.wild_rice": "Riso Selvatico",
       "item.hyventure_mod.cattail_twig": "Coda di Gatto",
+      "block.hyventure_mod.stripped_palm_log": "Palm Log",
       "block.hyventure_mod.palm_slab": "Asse di Palma",
       "block.hyventure_mod.tiny_cactus": "Cactus Piccolo",
       "block.hyventure_mod.palm_fence": "Staccionata di Palma",
@@ -278,13 +263,13 @@
       "block.hyventure_mod.desert_lily": "Liliacea del Deserto",
       "block.hyventure_mod.palm_planks": "Assi di Palma",
       "itemGroup.tabhyventure_tab": "Hyventure",
-      "block.hyventure_mod.quicksand": "Sabbie Mobili",
       "block.hyventure_mod.palm_stairs": "Scalini di Palma"
     },
     "en_us": {
       "block.hyventure_mod.palmlog": "Palm Log",
       "block.hyventure_mod.wild_rice": "Wild Rice",
       "item.hyventure_mod.cattail_twig": "Cattail",
+      "block.hyventure_mod.stripped_palm_log": "Stripped Palm Log",
       "block.hyventure_mod.palm_slab": "Palm Slab",
       "block.hyventure_mod.tiny_cactus": "Tiny Cactus",
       "block.hyventure_mod.palm_fence": "Palm Fence",
@@ -296,7 +281,6 @@
       "block.hyventure_mod.desert_lily": "Desert Lily",
       "block.hyventure_mod.palm_planks": "Palm Planks",
       "itemGroup.tabhyventure_tab": "Hyventure",
-      "block.hyventure_mod.quicksand": "Quicksand",
       "block.hyventure_mod.palm_stairs": "Palm Stairs"
     }
   },

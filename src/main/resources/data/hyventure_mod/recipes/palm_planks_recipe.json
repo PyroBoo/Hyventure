@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "hyventure_mod:palmlog"
+      "tag": "palm_log_tag"
     }
   ],
   "result": {

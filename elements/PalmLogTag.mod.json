@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Palmlog"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      }
+    ],
+    "functions": [],
+    "name": "palm_log_tag",
+    "namespace": "forge"
+  }
+}

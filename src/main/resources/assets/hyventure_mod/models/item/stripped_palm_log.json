@@ -1,5 +1,5 @@
 {
-  "parent": "hyventure_mod:block/quicksand",
+  "parent": "hyventure_mod:block/stripped_palm_log",
   "display": {
     "thirdperson": {
       "rotation": [
