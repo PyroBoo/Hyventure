@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "hyventure_mod:blocks/bubble_berries_bush",
+    "particle": "hyventure_mod:blocks/bubble_berries_bush"
+  }
+}

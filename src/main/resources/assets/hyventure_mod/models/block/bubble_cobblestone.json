@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyventure_mod:blocks/bubble_cobblestone",
+    "up": "hyventure_mod:blocks/bubble_cobblestone",
+    "north": "hyventure_mod:blocks/bubble_cobblestone",
+    "east": "hyventure_mod:blocks/bubble_cobblestone",
+    "south": "hyventure_mod:blocks/bubble_cobblestone",
+    "west": "hyventure_mod:blocks/bubble_cobblestone",
+    "particle": "hyventure_mod:blocks/bubble_cobblestone"
+  }
+}

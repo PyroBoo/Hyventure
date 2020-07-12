@@ -1,0 +1,50 @@
+{
+  "_fv": 8,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "bubble_berries_bush",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "name": "Bubble Berries Bush",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HyventureTab"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "CUSTOM:BubbleBerries"
+    },
+    "dropAmount": 2,
+    "forceTicking": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DAMAGE_CACTUS",
+    "flammability": 60,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BubbleForest"
+      }
+    ],
+    "onEntityCollides": {
+      "name": "BubbleBerriesBushMobplayerCollidesWithPlant"
+    }
+  }
+}

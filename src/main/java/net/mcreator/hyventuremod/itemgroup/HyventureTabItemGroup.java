@@ -7,13 +7,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.hyventuremod.item.CattailTwigItem;
+import net.mcreator.hyventuremod.block.BubblewoodLogBlock;
 import net.mcreator.hyventuremod.HyventureModModElements;
 
 @HyventureModModElements.ModElement.Tag
 public class HyventureTabItemGroup extends HyventureModModElements.ModElement {
 	public HyventureTabItemGroup(HyventureModModElements instance) {
-		super(instance, 27);
+		super(instance, 33);
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class HyventureTabItemGroup extends HyventureModModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(CattailTwigItem.block, (int) (1));
+				return new ItemStack(BubblewoodLogBlock.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

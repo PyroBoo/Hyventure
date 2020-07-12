@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "bubble_berries",
+    "customModelName": "Normal",
+    "name": "Bubble Berries",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HyventureTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.4,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}
