@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BubblewoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedBubblewoodLog"
+      }
+    ],
+    "functions": [],
+    "name": "bubblewood_log_tag",
+    "namespace": "forge"
+  }
+}

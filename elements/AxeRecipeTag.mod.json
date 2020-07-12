@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.WOODEN_AXE"
+      },
+      {
+        "value": "Items.STONE_AXE"
+      },
+      {
+        "value": "Items.IRON_AXE"
+      },
+      {
+        "value": "Items.GOLDEN_AXE"
+      },
+      {
+        "value": "Items.DIAMOND_AXE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "axe_recipe_tag",
+    "namespace": "forge"
+  }
+}

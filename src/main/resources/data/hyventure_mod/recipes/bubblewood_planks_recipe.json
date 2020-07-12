@@ -1,0 +1,13 @@
+{
+  "group": "hyventure_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "bubblewood_log_tag"
+    }
+  ],
+  "result": {
+    "item": "hyventure_mod:bubblewood_planks",
+    "count": 4
+  }
+}

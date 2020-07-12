@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyventure_mod:blocks/bubblewood_log_top_stripped",
+    "up": "hyventure_mod:blocks/bubblewood_log_top_stripped",
+    "north": "hyventure_mod:blocks/bubblewood_log_stripped",
+    "east": "hyventure_mod:blocks/bubblewood_log_stripped",
+    "south": "hyventure_mod:blocks/bubblewood_log_stripped",
+    "west": "hyventure_mod:blocks/bubblewood_log_stripped",
+    "particle": "hyventure_mod:blocks/bubblewood_log_top_stripped"
+  }
+}

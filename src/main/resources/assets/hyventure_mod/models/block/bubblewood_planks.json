@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyventure_mod:blocks/bubblewood_planks",
+    "up": "hyventure_mod:blocks/bubblewood_planks",
+    "north": "hyventure_mod:blocks/bubblewood_planks",
+    "east": "hyventure_mod:blocks/bubblewood_planks",
+    "south": "hyventure_mod:blocks/bubblewood_planks",
+    "west": "hyventure_mod:blocks/bubblewood_planks",
+    "particle": "hyventure_mod:blocks/bubblewood_planks"
+  }
+}
